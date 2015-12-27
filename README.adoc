@@ -1,0 +1,3 @@
+= OrientDB Demo Project
+
+Small OrientDB project to test basic CRUD and Query capabilities
