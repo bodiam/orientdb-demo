@@ -1,5 +1,7 @@
 package com.orientdb.demo.domain;
 
+import com.orientechnologies.orient.core.id.ORID;
+
 import javax.persistence.Id;
 import java.util.List;
 
@@ -15,9 +17,9 @@ public class Author {
     }
 
     @Id
-    private Object rid;
+    private ORID rid;
 
-    public Object getRid() {
+    public ORID getRid() {
         return rid;
     }
 
